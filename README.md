@@ -1,4 +1,3 @@
-# my-react-website
 import { useEffect, useState, useMemo, useCallback, memo } from "react";
 import { motion } from "framer-motion";
 
@@ -190,7 +189,7 @@ export default function DigitalTechSite() {
           <div className="mt-6 grid md:grid-cols-3 gap-4">
             {[
               { icon: <IconChip/>, title: "ดิจิไทซ์ (Digitize)", desc: "แปลงสิ่งอนาล็อกเป็นดิจิทัล เช่น เอกสาร เสียง รูปภาพ" },
-              { icon: <IconCloud/>, title: "ดิจิทัลไชเซชัน (Digitalization)", desc: "ใช้เทคโนโลยีช่วยทำงานเดิมให้ดีขึ้น รวดเร็วขึ้น" },
+              { icon: <IconCloud/>, title: "ดิจิทัลไลเซชัน (Digitalization)", desc: "ใช้เทคโนโลยีช่วยทำงานเดิมให้ดีขึ้น รวดเร็วขึ้น" },
               { icon: <IconBlocks/>, title: "ทรานส์ฟอร์เมชัน (Digital Transformation)", desc: "ปรับกระบวนการและรูปแบบธุรกิจใหม่ด้วยดิจิทัล" },
             ].map((c, i) => (
               <motion.div key={i} {...fadeUp} className="p-5 rounded-2xl border border-slate-800 bg-slate-900/60 shadow-sm ring-1 ring-white/5 hover:ring-sky-500/30">
@@ -243,7 +242,7 @@ export default function DigitalTechSite() {
               { icon: <IconDatabase/>, title: "วิทยาการข้อมูล", skills: "SQL, Python, Visualization", jobs: "Data Analyst/Scientist" },
               { icon: <IconBlocks/>, title: "บล็อกเชนและเว็บ3", skills: "Smart Contract, Solidity, Token", jobs: "Blockchain Dev" },
               { icon: <IconARVR/>, title: "AR/VR และกราฟิก", skills: "Unity/Unreal, 3D, UX", jobs: "XR Developer, 3D Artist" },
-              { icon: <IconChip/>, title: "ซอฟต์แวร์และเว็บ", skills: "HTML/CSS/JS, React, API", jobs: "Frontend/Backend/Full‑stack" },
+              { icon: <IconChip/>, title: "ซอฟต์แวร์และเว็บ", skills: "HTML/CSS/JS, React, API", jobs: "Frontend/Backend/Full-stack" },
               { icon: <IconWifi/>, title: "เครือข่ายและ 5G", skills: "Routing, Wireless, Edge", jobs: "Network Engineer" },
               { icon: <IconRobot/>, title: "หุ่นยนต์และ IoT", skills: "ไมโครคอนโทรลเลอร์, Sensor, MQTT", jobs: "Embedded/Robotics" },
             ].map((c, i) => (
